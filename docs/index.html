@@ -342,7 +342,7 @@ function ashamethem(p)
             pepe = "0x"+p[n].topics[1].substr(-40);
             petr = p[n].transactionHash;
             PP.textContent = pepe;
-            PP.innerHTML += `<a class="footr" style="font-size:14px"" href="https://etherscan.io/address/${petr}"><font>Explore</a> ⌕`
+            PP.innerHTML += `<a class="footr" style="font-size:14px"" href="https://etherscan.io/tx/${petr}"><font>Explore</a> ⌕`
             SL.appendChild(PP);
         }
     }
